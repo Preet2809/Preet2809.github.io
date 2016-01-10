@@ -55,6 +55,10 @@ p {
     background-color: #8ab839;
 }
 
+.bg-publication {
+    background-color: #7F61CC;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;
@@ -456,6 +460,11 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.year {
+    color: #999999;
+    font-weight: normal;
 }
 
 body {
