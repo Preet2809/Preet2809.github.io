@@ -25,6 +25,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
+    <script src="js/Chart.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -234,11 +236,183 @@
             </div>
         </div>
     </section>
+
+    <!--SKILLS DESCRIPTION -->
+    <section class="bg-skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="written" height="150" width="150"></canvas>
+                    <p class="text-center">Written and Verbal Skills</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 15,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("written").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="comm" height="150" width="150"></canvas>
+                    <p class="text-center">Communication Skills</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 20,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("comm").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="team" height="150" width="150"></canvas>
+                    <p class="text-center">Team Player</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 10,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("team").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="problemSolver" height="150" width="150"></canvas>
+                    <p class="text-center">Problem Solver</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 25,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("problemSolver").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="Motive" height="150" width="150"></canvas>
+                    <p class="text-center">Motivated and Flexible</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 30,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("Motive").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="fast" height="150" width="150"></canvas>
+                    <p class="text-center">Quick Learner</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 10,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("fast").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="plan" height="150" width="150"></canvas>
+                    <p class="text-center">Planning &amp; Time Management</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 30,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("plan").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+
+                <div class="col-lg-3 centered text-center">
+                    <canvas id="out" height="150" width="150"></canvas>
+                    <p class="text-center">Out of the Box thinker</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color: "#1abc9c"
+									},
+                            {
+                                value: 30,
+                                color: "#ecf0f1"
+									}
+								];
+                        var myDoughnut = new Chart(document.getElementById("out").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+            </div>
+            <!--/.row -->
+        </div>
+        <!--/.container -->
+        <!--/ #skillswrap -->
+    </section>
+
     <section class="no-padding" id="publicationsCopy">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="row">
                     <div class="col-lg-12 text-center">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <h2 class="section-heading">Publication Copy</h2>
                         <hr class="primary">
                     </div>
@@ -651,6 +825,10 @@
                     <h5>J. Sci. Res. Phar. 2015, 4(1), 37-43</h5>
                 </div>
                 <div class="modal-body">
+                    <a href="http://www.jsrponline.com/index.php?option=com_mtree&task=att_download&link_id=262&cf_id=24" target="_blank">
+                        <button type="button" class="btn btn-primary">Watch Online</button>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="publication/Fragment_based_drug_discovery-_Cancer_perspective.pdf">
                         <button type="button" class="btn btn-primary">Download</button>
                     </a>

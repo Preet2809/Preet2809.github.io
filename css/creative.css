@@ -59,6 +59,10 @@ p {
     background-color: #7F61CC;
 }
 
+.bg-skills {
+    background-color: cornflowerblue;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;
