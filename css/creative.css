@@ -477,6 +477,11 @@ img::-moz-selection {
     padding: 10px;
 }
 
+.section .section-inner {
+    background: #fff;
+    padding: 30px;
+}
+
 body {
     webkit-tap-highlight-color: #222;
 }
